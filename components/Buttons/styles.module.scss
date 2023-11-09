@@ -1,0 +1,32 @@
+.corner {
+	
+	$thickness: 1px;
+	$coner-color: #FFFFFF;
+	$bg-color:#FFFFFF00;  
+	
+  border:none;
+  outline:none;
+  background-image: 
+  linear-gradient(to right, $coner-color $thickness, $bg-color $thickness), 
+  linear-gradient(to right, $coner-color $thickness, $bg-color $thickness), 
+  linear-gradient(to left, $coner-color $thickness, $bg-color $thickness), 
+  linear-gradient(to left, $coner-color $thickness, $bg-color $thickness), 
+  linear-gradient(to bottom, $coner-color $thickness, $bg-color $thickness), 
+  linear-gradient(to bottom, $coner-color $thickness, $bg-color $thickness), 
+  linear-gradient(to top, $coner-color $thickness, $bg-color $thickness), 
+  linear-gradient(to top, $coner-color $thickness, $bg-color $thickness);
+    background-position-x: 0px, 0px, 100%, 100%, 0px, 100%, 0px, 100%;
+    background-position-y: 0px, 100%, 0px, 100%, 0px, 0px, calc(100% - 0.5px), calc(100% - 0.5px);
+  background-repeat: no-repeat;
+
+  background-size: 42px 11px;
+  @media screen and (min-width: 768px) {
+	background-size: 35px 11px;
+	}
+
+	@media screen and (min-width: 1280px) {
+		background-size: 44px 11px;
+	}
+
+}
+

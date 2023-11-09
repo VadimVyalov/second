@@ -1,0 +1,21 @@
+.bg {
+	
+		background-image: url(/assets/images/background/home-01-Mx1.jpg);
+		@media screen and (min-resolution: 2dppx) {
+			background-image: url(/assets/images/background/home-01-Mx2.jpg);
+			}
+
+	@media screen and (min-width: 768px) {
+		background-image: url(/assets/images/background/home-01-Tx1.jpg);
+		@media screen and (min-resolution: 2dppx) {
+			background-image: url(/assets/images/background/home-01-Tx2.jpg);
+		}
+	}
+
+	@media screen and (min-width: 1280px) {
+		background-image: url(/assets/images/background/home-01-Dx1.jpg);
+		@media screen and (min-resolution: 2dppx) {
+			background-image: url(/assets/images/background/home-01-Dx2.jpg);
+		}
+	}
+}

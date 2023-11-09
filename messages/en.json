@@ -1,0 +1,26 @@
+{
+  "IndexPage": {
+    "title": "next-intl example",
+    "description": "This is a basic example that demonstrates the usage of <accent>next-intl</accent> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+  },
+  "Error":{
+    "title": "Error",
+    "description": "Hmm... what is this"
+  },
+  "NotFoundPage":{
+    "title": "NotFoundPage",
+    "description": "Hmm... what is this"
+  },
+  "LocaleSwitcher":{
+    "label": "Laguge",
+    "locale": "EN"
+  },
+  "Hero":{
+      "title":  "<accent>Uncover </accent> Carpathian’s Secrets" ,
+      "subtitle-01":  "<accent>7</accent>days" ,
+      "subtitle-02":  "<accent>j</accent><accent>o</accent><accent>u</accent><accent>r</accent><accent>n</accent><accent>e</accent><accent>y</accent>" ,
+      "description": "We offer you unforgettable trips to the most beautiful parts of the Carpathians. Enjoy stunning views, exciting expeditions, and the best service!",
+      "content-01": "Hoverla / Yaremche / Zakarpattia / Vorokhta / Synevyr Lake / Bukovel"
+    }
+  
+}
